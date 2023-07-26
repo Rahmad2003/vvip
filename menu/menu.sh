@@ -411,7 +411,7 @@ echo -e " ${z}│$NC [${r}00${NC}]${CYAN} BACK TO EXIT MENU$NC ${KANAN} \E[0m\03
 echo -e " ${z}│$NC [${r}99${NC}]${CYAN} CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e "${z} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${z} │$NC ${CYAN}HARI ini${NC}: ${r}$ttoday$NC ${CYAN}KEMARIN${NC}: ${r}$tyest$NC ${CYAN}BULAN${NC}: ${r}$tmon$NC $NC"
+echo -e "${z} │${NC} ${CYAN}HARI ini${NC}: ${r}$ttoday${NC} ${CYAN}KEMARIN${NC}: ${r}$tyest${NC} ${CYAN}BULAN${NC}: ${r}$tmon${NC} ${NC}"
 echo -e "${z} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
