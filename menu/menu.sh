@@ -392,7 +392,7 @@ echo -e "           ${CYAN}VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           ${CYAN}TROJAN/WS/GRPC${NC} $y=$NC $tra${NC}" "$a"
 echo -e "           ${CYAN}SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat 
-echo -e "               ${KIRI} ${CYAN}STATUS SERVICE VPS${NC} ${KANAN}"
+echo -e "                  ${KIRI} ${CYAN}STATUS SERVICE VPS${NC} ${KANAN}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
