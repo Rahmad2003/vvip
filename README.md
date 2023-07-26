@@ -2,16 +2,16 @@
 - PRICELIST
 ```
 HARGA SEWA AUTOSCRIPT 
-1 Bulan : 15K
-2 Bulan : 25K
-3 Bulan : 35K
+1 Bulan : 10K
+2 Bulan : 15K
+3 Bulan : 20K
 
-1 Tahun : 75K
+1 Tahun : 65K
 LIFETIME: 150K
 ```
 • HUBUNGI:
-- WhatsApp: [KLIK DISINI](https://wa.me/081215360549)
-- Telegram: [KLIK DISINI](https://t.me/YSSHStore)
+- WhatsApp: [KLIK DISINI](https://wa.me/081390350329)
+- Telegram: [KLIK DISINI](https://t.me/Rahmadfxs)
 
 ### PERHATIAN
 
