@@ -372,7 +372,7 @@ else
 fi
 clear
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m         Welcome To Script Premium Madest Store           $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m         WELCOME TO SCRIPT PREMIUM MADEST STORE           $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
@@ -384,7 +384,7 @@ echo -e " ${z}│$NC$r ⇲ $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} IP VPS        $blue=$NC $MYIP${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} DOMAIN        $blue=$NC $domain${NC}"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "     ${KIRI} ${CYAN}•TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI•${NC} ${KANAN}"
+echo -e "      ${KIRI} ${CYAN}•TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI•${NC} ${KANAN}"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat 
 echo -e "           ${CYAN}SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
 echo -e "           ${CYAN}VMESS/WS/GRPC${NC}  $y=$NC $vma$NC" "$a"
@@ -392,7 +392,7 @@ echo -e "           ${CYAN}VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           ${CYAN}TROJAN/WS/GRPC${NC} $y=$NC $tra${NC}" "$a"
 echo -e "           ${CYAN}SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat 
-echo -e "               ${KIRI} ${CYAN}STATUS SERVICE MADDEST${NC} ${KANAN}"
+echo -e "               ${KIRI} ${CYAN}STATUS SERVICE VPS${NC} ${KANAN}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
