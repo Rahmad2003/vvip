@@ -371,7 +371,6 @@ else
     ssh=$(cat /etc/ssh/.ssh.db | grep "#ssh1#" | wc -l)
 fi
 clear
-figlet       'MADESTSTORE' | lolcat
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC\033[41m         Welcome To Script Premium Madest Store           $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
@@ -385,7 +384,7 @@ echo -e " ${z}│$NC$r ⇲ $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} IP VPS        $blue=$NC $MYIP${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} DOMAIN        $blue=$NC $domain${NC}"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "                ${KIRI} ${CYAN}INFORMATION ACCOUNT${NC} ${KANAN}"
+echo -e "  ${KIRI} ${CYAN}•TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI•${NC} ${KANAN}"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat 
 echo -e "           ${CYAN}SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
 echo -e "           ${CYAN}VMESS/WS/GRPC${NC}  $y=$NC $vma$NC" "$a"
