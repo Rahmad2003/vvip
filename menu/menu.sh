@@ -167,7 +167,7 @@ export NC='\033[0m'
 tram=$( free -h | awk 'NR==2 {print $2}' )
 uram=$( free -h | awk 'NR==2 {print $3}' )
 cd
-if [[ -e /etc/xray/city ]]; then
+if [ ! -e /etc/xray/city ]; then
 curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city
 curl -s ipinfo.io/org?token=75082b4831f909  | cut -d " " -f 2-10 >> /etc/xray/isp
 fi
