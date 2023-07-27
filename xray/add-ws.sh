@@ -100,8 +100,8 @@ clear
       menu-vmess
 		fi
 	done
-ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
-CITY=$(curl -s ipinfo.io/city )
+ISP=$(cat /etc/xray/isp)
+CITY=$(cat /etc/xray/city)
 uuid=$(cat /proc/sys/kernel/random/uuid)
 read -p "Expired (days): " masaaktif
 read -p "Limit User (GB): " Quota
