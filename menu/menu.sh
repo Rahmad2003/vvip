@@ -107,8 +107,8 @@ ZIL='\033[0;96m'        # Cyan
 IWhite='\033[0;97m'       # White
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip)
-ISP=$(cat /etc/xray/isp)
-CITY=$(cat /etc/xray/city)
+ISP=$(curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city )
+CITY=$(curl -s ipinfo.io/org?token=75082b4831f909  | cut -d " " -f 2-10 >> /etc/xray/isp )
 domain=$(cat /etc/xray/domain)
 uptime="$(uptime -p | cut -d " " -f 2-10)"
 RAM=$(free -m | awk 'NR==2 {print $2}')
