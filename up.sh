@@ -293,7 +293,7 @@ echo -e "   •> ADD USER LOCK AND UNLOCK <•" | lolcat
 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
-echo -e "  ${BG} >>> THANKS TO YogzVpn <<< ${NC}" 
+echo -e "  ${BG} >>> THANKS TO MADEST' <<< ${NC}" 
 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo ""
