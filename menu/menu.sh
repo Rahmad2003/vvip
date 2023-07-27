@@ -168,8 +168,10 @@ export NC='\033[0m'
 ###########- END COLOR CODE -##########
 tram=$( free -h | awk 'NR==2 {print $2}' )
 uram=$( free -h | awk 'NR==2 {print $3}' )
-ISP=$(curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city )
-CITY=$(curl -s ipinfo.io/city )
+curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city
+curl -s ipinfo.io/org?token=75082b4831f909  | cut -d " " -f 2-10 >> /etc/xray/isp
+ISP=$(cat /etc/xray/city )
+CITY=$(cat /etc/xray/isp )
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
 export INFO="[${YELLOW} INFO ${NC}]"
