@@ -175,10 +175,11 @@ cityy=$(cat /etc/xray/city | wc -l)
 if [[ $city == "1" ]]; then
 echo -ne
 else
-rm /etc/xray/city
+rm -rf /etc/xray/city
+rm -rf /etc/xray/isp
 fi
-ISP=$(cat /etc/xray/city )
-CITY=$(cat /etc/xray/isp )
+CITY=$(cat /etc/xray/city )
+ISP=$(cat /etc/xray/isp )
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
 export INFO="[${YELLOW} INFO ${NC}]"
