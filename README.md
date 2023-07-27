@@ -10,7 +10,7 @@ HARGA SEWA AUTOSCRIPT
 LIFETIME: 150K
 ```
 • HUBUNGI:
-- WhatsApp: [KLIK DISINI](https://wa.me/081390350329)
+- WhatsApp: [KLIK DISINI](https://wa.me/6281390350329)
 - Telegram: [KLIK DISINI](https://t.me/Rahmadfxs)
 
 ### PERHATIAN
@@ -63,6 +63,6 @@ LIFETIME: 150K
 `UPDATED`
 
 ### Lisensi
-Repository ini dilindungi oleh lisensi [PAK POLISI](https://mit-license.org/)
+Repository ini dilindungi oleh lisensi [PAK PRESIDEN](https://mit-license.org/)
 
-BY: YogzVPN | & Team 【YSSH】
+BY: MADEST'
