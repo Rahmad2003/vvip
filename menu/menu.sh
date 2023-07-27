@@ -108,7 +108,7 @@ IWhite='\033[0;97m'       # White
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip)
 ISP=$(curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city )
-CITY=$(curl -s ipinfo.io/org?token=75082b4831f909  | cut -d " " -f 2-10 >> /etc/xray/isp )
+CITY=$(curl -s ipinfo.io/city )
 domain=$(cat /etc/xray/domain)
 uptime="$(uptime -p | cut -d " " -f 2-10)"
 RAM=$(free -m | awk 'NR==2 {print $2}')
@@ -169,7 +169,7 @@ export NC='\033[0m'
 tram=$( free -h | awk 'NR==2 {print $2}' )
 uram=$( free -h | awk 'NR==2 {print $3}' )
 ISP=$(curl -s ipinfo.io/city?token=75082b4831f909 >> /etc/xray/city )
-CITY=$(curl -s ipinfo.io/org?token=75082b4831f909  | cut -d " " -f 2-10 >> /etc/xray/isp )
+CITY=$(curl -s ipinfo.io/city )
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
 export INFO="[${YELLOW} INFO ${NC}]"
@@ -375,7 +375,7 @@ echo -e " ${z}│$NC\033[41m         WELCOME TO SCRIPT PREMIUM MADEST STORE     
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
-echo -e " ${z}│$NC$r ⇲ $NC${z} ISP           $blue=$NC $ISP${NC}"
+echo -e " ${z}│$NC$r ⇲ $NC${z} ISP           $blue=$NC $CITY${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} UPTIME SERVER $blue=$NC $uptime${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
