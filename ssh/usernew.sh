@@ -78,9 +78,8 @@ checking_sc
 echo -e "\e[32mloading...\e[0m"
 clear
 export TIME="10"
-IP=$(curl -sS ipv4.icanhazip.com)
-ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
-CITY=$(curl -s ipinfo.io/city )
+ISP=$(cat /etc/xray/isp)
+CITY=$(cat /etc/xray/city)
 domain=$(cat /etc/xray/domain)
 sldomain=$(cat /etc/xray/dns)
 cdndomain=$(cat /root/awscdndomain)
