@@ -385,7 +385,7 @@ echo -e " ${z}│$NC\033[41m         WELCOME TO SCRIPT PREMIUM MADEST STORE     
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ¶ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
-echo -e " ${z}│$NC$r ¶ $NC${z} ISP           $blue=$NC $CITY $ISP ${NC}"
+echo -e " ${z}│$NC$r ¶ $NC${z} CITY & ISP    $blue=$NC $CITY $ISP ${NC}"
 echo -e " ${z}│$NC$r ¶ $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
 echo -e " ${z}│$NC$r ¶ $NC${z} UPTIME SERVER $blue=$NC $uptime${NC}"
 echo -e " ${z}│$NC$r ¶ $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
@@ -430,7 +430,7 @@ datediff() {
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│${NC}${z}   Version   $blue=${NC} V1.0 ${NC}"
+echo -e " ${z}│${NC}${z}   Version   $blue=${NC} 1.0 Latest Version ${NC}"
 echo -e " ${z}│${NC}${z}   User      $blue=${NC}\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
