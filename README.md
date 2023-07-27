@@ -63,6 +63,7 @@ LIFETIME: 150K
 `UPDATED`
 
 ### Lisensi
-Repository ini dilindungi oleh lisensi [PAK PRESIDEN](https://mit-license.org/)
+Repository ini dilindungi oleh lisensi
+[PAK PRESIDEN](https://mit-license.org/)
 
 BY: MADEST'
