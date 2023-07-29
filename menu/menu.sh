@@ -408,7 +408,7 @@ echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $res
 echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC [${r}01${NC}]${CYAN} SSH MENU$NC     ${z}│$NC [${r}08${NC}]${CYAN} DELL ALL EXP$NC${z} │$NC [${r}15${NC}]${CYAN} BCKP/RSTR   $NC${z}│$NC"
-echo -e " ${z}│$NC [${r}02${NC}]${CYAN} VMESS MENU$NC   ${z}│$NC [${r}09${NC}]${CYAN} AUTOREBOOT$NC  ${z} │$NC [${r}16${NC}]${CYAN} REBOOT      $NC${z}│$NC"    
+echo -e " ${z}│$NC [${r}02${NC}]${CYAN} VMESS MENU$NC   ${z}│$NC [${r}09${NC}]${CYAN} SUBDO FREE$NC  ${z} │$NC [${r}16${NC}]${CYAN} AUTO REBOOT $NC${z}│$NC"    
 echo -e " ${z}│$NC [${r}03${NC}]${CYAN} VLESS MENU$NC   ${z}│$NC [${r}10${NC}]${CYAN} INFO PORT$NC   ${z} │$NC [${r}17${NC}]${CYAN} RESTART     $NC${z}│$NC"   
 echo -e " ${z}│$NC [${r}04${NC}]${CYAN} TROJAN MENU$NC  ${z}│$NC [${r}11${NC}]${CYAN} SPEEDTEST$NC   ${z} │$NC [${r}18${NC}]${CYAN} DOMAIN      $NC${z}│$NC" 
 echo -e " ${z}│$NC [${r}05${NC}]${CYAN} SHADOW MENU$NC  ${z}│$NC [${r}12${NC}]${CYAN} RUNNING$NC     ${z} │$NC [${r}19${NC}]${CYAN} CERT SSL    $NC${z}│$NC"
@@ -451,14 +451,14 @@ case $opt in
 06 | 6) clear ; menu-trial ;;
 07 | 7) clear ; up ;;
 08 | 8) clear ; tcp ;;
-09 | 9) clear ; auto-reboot ;;
+09 | 9) clear ; cf ;;
 10) clear ; about ;;
 11) clear ; speedtest ;;
 12) clear ; running ;;
 13) clear ; gotop ;;
 14) clear ; bot ;;
 15) clear ; menu-backup ;;
-16) clear ; reboot ;;
+16) clear ; auto-reboot ;;
 17) clear ; restart ;;
 18) clear ; add-host ;;
 19) clear ; certv2ray ;;
