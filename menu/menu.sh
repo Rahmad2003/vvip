@@ -381,7 +381,7 @@ else
 fi
 clear
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m         Madest VPN TUNNELING                             $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m             Madest VPN TUNNELING                         $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
@@ -406,7 +406,7 @@ echo -e " ${z}╭════════════════╮╭═══
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
 echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
-echo -e " ${z}│$NC\033[41m          MENU TUNNELING MASBRO                          $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m              MENU TUNNELING MASBRO                       $NC${z}│$NC"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC [${r}01${NC}]${CYAN} SSH MENU$NC     ${z}│$NC [${r}08${NC}]${CYAN} DELL ALL EXP$NC${z} │$NC [${r}15${NC}]${CYAN} BCKP/RSTR   $NC${z}│$NC"
 echo -e " ${z}│$NC [${r}02${NC}]${CYAN} VMESS MENU$NC   ${z}│$NC [${r}09${NC}]${CYAN} SUBDO FREE$NC  ${z} │$NC [${r}16${NC}]${CYAN} AUTO REBOOT $NC${z}│$NC"    
