@@ -381,7 +381,7 @@ else
 fi
 clear
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m         WELCOME TO SCRIPT PREMIUM MADEST STORE           $NC${z}│$NC"
+echo -e " ${z}│$NC\033[0;34m         TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI        $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
