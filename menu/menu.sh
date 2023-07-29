@@ -384,14 +384,14 @@ echo -e " ${z}╭═════════════════════
 echo -e " ${z}│$NC\033[41m         TERIMA KASIH SUDAH MENGGUNAKAN SCRIPT INI        $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} CITY & ISP    $blue=$NC $ISP & $CITY ${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} UPTIME SERVER $blue=$NC $uptime${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} IP-VPS        $blue=$NC $MYIP${NC}"
-echo -e " ${z}│ $NC$r ¶ $NC${z} DOMAIN        $blue=$NC $domain${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} CITY & ISP    $blue=$NC $ISP & $CITY ${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} UPTIME SERVER $blue=$NC $uptime${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} IP-VPS        $blue=$NC $MYIP${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} DOMAIN        $blue=$NC $domain${NC}"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
 echo -e "           SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
@@ -404,7 +404,7 @@ echo -e " ${z}╭════════════════╮╭═══
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
 echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
-echo -e " ${z}│$NC\033[41m                MENU TUNNELING MASBRO                     $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m                 MENU TUNNELING MASBRO                     $NC${z}│$NC"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC [${r}01${NC}] SSH MENU$NC     ${z}│$NC [${r}08${NC}] DELL ALL EXP$NC${z} │$NC [${r}15${NC}] BCKP/RSTR   $NC${z}│$NC"
 echo -e " ${z}│$NC [${r}02${NC}] VMESS MENU$NC   ${z}│$NC [${r}09${NC}] SUBDO FREE$NC  ${z} │$NC [${r}16${NC}] AUTO REBOOT $NC${z}│$NC"    
@@ -419,7 +419,7 @@ echo -e " ${z}│$NC [${r}00${NC}] BACK TO EXIT MENU$NC ${KANAN} \E[0m\033[0;34m
 echo -e " ${z}│$NC [${r}99${NC}] CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e " ${z} │${NC} HARI ini${NC}: ${r}$ttoday${NC} KEMARIN${NC}: ${r}$tyest${NC} BULAN${NC}: ${r}$tmon${NC} ${NC}"
+echo -e " ${z} │${NC} HARI ini${NC}➤  ${r}$ttoday${NC} KEMARIN${NC}➤  ${r}$tyest${NC} BULAN${NC}➤  ${r}$tmon${NC} ${NC}"
 echo -e " ${z} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
@@ -429,11 +429,11 @@ datediff() {
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│${NC}${z}   Version   $blue=${NC} 1.0 Latest Version ${NC}"
-echo -e " ${z}│${NC}${z}   User      $blue=${NC}\033[1;36m $Name \e[0m"
+echo -e " ${z}│${NC}${z}   Version   $blue➤ ${NC} 1.0 Latest Version ${NC}"
+echo -e " ${z}│${NC}${z}   User      $blue➤ ${NC}\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
-echo -e "   $z│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
+echo -e "   $z│$NC License      ➤  ${GREEN}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
