@@ -393,7 +393,7 @@ echo -e " ${z}│ $NC$r ¶ $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} IP-VPS        $blue=$NC $MYIP${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} DOMAIN        $blue=$NC $domain${NC}"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "      ${KIRI} ${CYAN}•TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI•${NC} ${KANAN}"
+echo -e "      ${KIRI}  ${CYAN} TERIMAKASIH SUDAH MENGGUNAKAN SCRIP INI ${NC} ${KANAN}"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
 echo -e "           ${CYAN}SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
 echo -e "           ${CYAN}VMESS/WS/GRPC${NC}  $y=$NC $vma$NC" "$a"
@@ -401,7 +401,7 @@ echo -e "           ${CYAN}VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           ${CYAN}TROJAN/WS/GRPC${NC} $y=$NC $tra${NC}" "$a"
 echo -e "           ${CYAN}SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
-echo -e "                ${KIRI} ${CYAN}STATUS SERVICE VPS${NC} ${KANAN}"
+echo -e "                ${KIRI} ${CYAN}JANGAN LUPA ANU BRO${NC} ${KANAN}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
@@ -419,14 +419,14 @@ echo -e " ${z}│                                                          $NC${
 echo -e " ${z}│$NC [${r}00${NC}]${CYAN} BACK TO EXIT MENU$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}│$NC"
 echo -e " ${z}│$NC [${r}99${NC}]${CYAN} CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "${z} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${z} │${NC} ${CYAN}HARI ini${NC}: ${r}$ttoday${NC} ${CYAN}KEMARIN${NC}: ${r}$tyest${NC} ${CYAN}BULAN${NC}: ${r}$tmon${NC} ${NC}"
-echo -e "${z} └─────────────────────────────────────────────────────┘${NC}"
+echo -e " ${z} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e " ${z} │${NC} ${CYAN}HARI ini${NC}: ${r}$ttoday${NC} ${CYAN}KEMARIN${NC}: ${r}$tyest${NC} ${CYAN}BULAN${NC}: ${r}$tmon${NC} ${NC}"
+echo -e " ${z} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e " ${z}│${NC}${z}   Expiry In $blue=${NC} $exp ( ${r}$(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
+    echo -e " ${z}│${NC}${z}Expiry In $blue=${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
@@ -470,5 +470,5 @@ case $opt in
 99) clear ; nano /etc/issue.net ;;
 0) clear ; menu ;;
 00) exit ;;
-*) echo -e "" ; echo "Lu salah tekan bro" ; sleep 1 ; menu ;;
+*) echo -e "" ; echo "Lu salah tekan ASU" ; sleep 1 ; menu ;;
 esac
