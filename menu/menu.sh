@@ -385,7 +385,7 @@ echo -e " ${z}│$NC\033[41m         TERIMA KASIH SUDAH MENGGUNAKAN SCRIPT INI  
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
-echo -e " ${z}│ $NC$r ➤  $NC${z} CITY & ISP    $blue=$NC $ISP & $CITY ${NC}"
+echo -e " ${z}│ $NC$r ➤  $NC${z} ISP & CITY    $blue=$NC $ISP & $CITY ${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} UPTIME SERVER $blue=$NC $uptime${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
@@ -419,21 +419,21 @@ echo -e " ${z}│$NC [${r}00${NC}] BACK TO EXIT MENU$NC ${KANAN} \E[0m\033[0;34m
 echo -e " ${z}│$NC [${r}99${NC}] CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e " ${z} │${NC} HARI ini${NC}➤  ${r}$ttoday${NC} KEMARIN${NC}➤  ${r}$tyest${NC} BULAN${NC}➤  ${r}$tmon${NC} ${NC}"
+echo -e " ${z} │${NC} HARI ini${NC} ➤  ${r}$ttoday${NC} KEMARIN${NC} ➤  ${r}$tyest${NC} BULAN${NC} ➤  ${r}$tmon${NC} ${NC}"
 echo -e " ${z} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e " ${z}│${NC}${z}   Expiry In $blue=${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
+    echo -e " ${z}│${NC}${z}   Expiry In $blue ➤ ${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│${NC}${z}   Version   $blue➤ ${NC} 1.0 Latest Version ${NC}"
-echo -e " ${z}│${NC}${z}   User      $blue➤ ${NC}\033[1;36m $Name \e[0m"
+echo -e " ${z}│${NC}${z}   Version   $blue ➤ ${NC} 1.0 Latest Version ${NC}"
+echo -e " ${z}│${NC}${z}   User      $blue ➤ ${NC}\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
-echo -e "   $z│$NC License      ➤  ${GREEN}$sisa_hari$NC Days Tersisa $NC"
+echo -e "   $z│$NC License      ➤   ${GREEN}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
