@@ -381,7 +381,7 @@ else
 fi
 clear
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m             Madest VPN TUNNELING                         $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m          TERIMA KASIH SUDAH MENGGUNAKAN SCRIPT INI       $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
@@ -393,7 +393,6 @@ echo -e " ${z}│ $NC$r ¶ $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} IP-VPS        $blue=$NC $MYIP${NC}"
 echo -e " ${z}│ $NC$r ¶ $NC${z} DOMAIN        $blue=$NC $domain${NC}"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "      $NC\033[41m  TERIMA KASIH SUDAH MENGGUNAKAN SCRIPT INI               $NC"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
 echo -e "           ${CYAN}SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
 echo -e "           ${CYAN}VMESS/WS/GRPC${NC}  $y=$NC $vma$NC" "$a"
@@ -401,12 +400,11 @@ echo -e "           ${CYAN}VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           ${CYAN}TROJAN/WS/GRPC${NC} $y=$NC $tra${NC}" "$a"
 echo -e "           ${CYAN}SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
-echo -e "      $NC\033[41m              STATUS SERVICE VPS                          $NC"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
 echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
-echo -e " ${z}│$NC\033[41m              MENU TUNNELING MASBRO                       $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m                MENU TUNNELING MASBRO                     $NC${z}│$NC"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC [${r}01${NC}]${CYAN} SSH MENU$NC     ${z}│$NC [${r}08${NC}]${CYAN} DELL ALL EXP$NC${z} │$NC [${r}15${NC}]${CYAN} BCKP/RSTR   $NC${z}│$NC"
 echo -e " ${z}│$NC [${r}02${NC}]${CYAN} VMESS MENU$NC   ${z}│$NC [${r}09${NC}]${CYAN} SUBDO FREE$NC  ${z} │$NC [${r}16${NC}]${CYAN} AUTO REBOOT $NC${z}│$NC"    
@@ -427,7 +425,7 @@ DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e " ${z}│${NC}${z}    Expiry In $blue=${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
+    echo -e " ${z}│${NC}${z}   Expiry In $blue=${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
