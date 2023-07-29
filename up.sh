@@ -84,8 +84,6 @@ rm -rf trialtrojan
 rm -rf del-ws
 rm -rf del-vless
 rm -rf del-tr
-rm -rf user-lock
-rm -rf user-unlock
 # download script
 cd /usr/bin
 # menu
@@ -121,8 +119,6 @@ wget -O delete "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/delet
 wget -O autokill "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/tendang.sh"
-wget -O user-lock "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/user-lock.sh"
-wget -O user-unlock "https://raw.githubusercontent.com/Rahmad2003/vvip/main/ssh/user-unlock.sh"
 
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/Rahmad2003/vvip/main/menu/menu-set.sh"
