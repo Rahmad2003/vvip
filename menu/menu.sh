@@ -404,7 +404,7 @@ echo -e " ${z}╭────────────────╮╭───
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
 echo -e " ${z}╰────────────────╯╰──────────────────╯╰────────────────────╯${NC}"
-echo -e " ${z}│$NC\033[41m                   • MENU TUNNELING •                      $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m                   • MENU TUNNELING •                     $NC${z}│$NC"
 echo -e " ${z}╭──────────────────────────────────────────────────────────╮${NC}"
 echo -e " ${z}│$NC [${r}01${NC}] SSH MENU$NC     ${z}│$NC [${r}08${NC}] DELL ALL EXP$NC${z} │$NC [${r}15${NC}] BCKP/RSTR   $NC${z}│$NC"
 echo -e " ${z}│$NC [${r}02${NC}] VMESS MENU$NC   ${z}│$NC [${r}09${NC}] SUBDO FREE$NC  ${z} │$NC [${r}16${NC}] AUTO REBOOT $NC${z}│$NC"    
