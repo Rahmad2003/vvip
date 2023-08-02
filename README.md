@@ -27,6 +27,9 @@ LIFETIME: 150K
 
 ### FITUR TAMBAHAN
 - Atur Limit Quota Per Akun
+- Atur IP Per Akun
+- Auto Backup Via Notif Telegram 
+- Auto Notif Telegram Saat Buat Akun
 - SlowDNS & SSH UDP
 - Penambahan fail2ban
 - Auto block sebagian ads indo by default
