@@ -398,7 +398,7 @@ echo -e " ${z}│  \033[0m ${BOLD}${GREEN}XXX${BIYellow} SSH${GREEN}  XXX  ${BIY
 echo -e " ${z}│  \033[0m ${Blue}     $ssh1         $vma           $vla           $tra              $NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
-echo -e " ${z}│ ${NC}${z}   SSH$NC : $resssh" "      ${z} NGINX$NC : $resngx" "      ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
+echo -e " ${z}│ ${NC}${z}  SSH$NC : $resssh" "     ${z} NGINX$NC : $resngx" "      ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"C}"
 echo -e " ${z}│$NC\033[41m                       • LIST MENU •                      $NC${z}│$NC"
 echo -e " ${z}╭──────────────────────────────────────────────────────────╮${NC}"
