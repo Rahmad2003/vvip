@@ -13,7 +13,7 @@ BGX="\033[42m"
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/YOGZKNTL/regip/main/ip"
+data_ip="https://raw.githubusercontent.com/Rahmad2003/izin/main/ip"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
@@ -27,8 +27,6 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} t.me/YSSHstore"
-    echo -e "      ${GREEN}WhatsApp${NC} wa.me/6281215360549"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
