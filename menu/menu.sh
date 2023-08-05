@@ -400,7 +400,7 @@ echo -e "           VLESS/WS/GRPC${NC}  $y=$NC $vla$NC" "$a"
 echo -e "           TROJAN/WS/GRPC${NC} $y=$NC $tra${NC}" "$a"
 echo -e "           SHADOW/WS/GRPC${NC} $y=$NC $ssa${NC} $a"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
-echo -e " ${z}╭────────────────╮╭──────────────────╮╭────────────────────╮${NC}"
+echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e " ${z}│ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}│$NC" 
 echo -e " ${z}│ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}│$NC" 
 echo -e " ${z}╰────────────────╯╰──────────────────╯╰────────────────────╯${NC}"
