@@ -404,7 +404,7 @@ echo -e " ${z}╔════════════════╗╔═══
 echo -e " ${z}║ ${NC}${z} SSH$NC : $resssh" "        ${z} NGINX$NC : $resngx" "        ${z} XRAY$NC : $resv2r      $NC${z}║$NC" 
 echo -e " ${z}║ ${NC}${z} WS-ePRO$NC : $ressshws" "    ${z} DROPBEAR$NC : $resdbr" "     ${z} HAPROXY$NC : $resst   $NC${z}║$NC" 
 echo -e " ${z}╚════════════════╝╚══════════════════╝╚════════════════════╝${NC}"
-echo -e " ${z}│$NC\033[41m                       • LIST MENU •                      $NC${z}│$NC"
+echo -e " ${z}║$NC\033[41m                       • LIST MENU •                      $NC${z}║$NC"
 echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e " ${z}║$NC [${r}01${NC}] SSH MENU$NC     ${z}║$NC [${r}08${NC}] DELL ALL EXP$NC${z} ║$NC [${r}15${NC}] BCKP/RSTR   $NC${z}║$NC"
 echo -e " ${z}║$NC [${r}02${NC}] VMESS MENU$NC   ${z}║$NC [${r}09${NC}] SUBDO FREE$NC  ${z} ║$NC [${r}16${NC}] AUTO REBOOT $NC${z}║$NC"    
@@ -419,7 +419,7 @@ echo -e " ${z}║$NC [${r}00${NC}] BACK TO EXIT MENU$NC ${KANAN} \E[0m\033[0;34m
 echo -e " ${z}║$NC [${r}99${NC}] CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}║$NC"
 echo -e " ${z}╚══════════════════════════════════════════════════════════╝${NC}"
 echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
-echo -e " ${z}│${NC} HARI ini${NC} ➤  ${r}$ttoday${NC} KEMARIN${NC} ➤  ${r}$tyest${NC} BULAN${NC} ➤  ${r}$tmon${NC} ${NC}"
+echo -e " ${z}║${NC} HARI ini${NC} ➤  ${r}$ttoday${NC} KEMARIN${NC} ➤  ${r}$tyest${NC} BULAN${NC} ➤  ${r}$tmon${NC} ${NC}"
 echo -e " ${z}╚══════════════════════════════════════════════════════════╝${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
