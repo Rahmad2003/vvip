@@ -414,7 +414,7 @@ echo -e " ${z}║$NC [${r}05${NC}] SHADOW MENU$NC  ${z}║$NC [${r}12${NC}] RUNN
 echo -e " ${z}║$NC [${r}06${NC}] TRIAL MENU$NC   ${z}║$NC [${r}13${NC}] VPS INFO$NC    ${z} ║$NC [${r}20${NC}] INS. UDP    $NC${z}║$NC"
 echo -e " ${z}║$NC [${r}07${NC}] UPDATE SCRIPT$NC${z}║$NC [${r}14${NC}] BOT NOTIF$NC   ${z} ║$NC [${r}21${NC}] CLEAR CACHE $NC${z}║$NC"
 echo -e " ${z}║$NC [${r}22${NC}] SETTING MENU$NC ${z}║$NC [${r}23${NC}] BOT BACKUP$NC  ${z} ║$NC [${r}24${NC}] UBAH PW VPS $NC${z}║$NC"
-echo -e " ${z}║                                                          $NC${z}│$NC"
+echo -e " ${z}║                                                          $NC${z}║$NC"
 echo -e " ${z}║$NC [${r}00${NC}] BACK TO EXIT MENU$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}║$NC"
 echo -e " ${z}║$NC [${r}99${NC}] CHANGE BANNER VPS$NC ${KANAN} \E[0m\033[0;34m                              $NC${z}║$NC"
 echo -e " ${z}╚══════════════════════════════════════════════════════════╝${NC}"
@@ -425,7 +425,7 @@ DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
-    echo -e " ${z}│${NC}${z}   Expiry In $blue ➤ ${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
+    echo -e " ${z}║${NC}${z}   Expiry In $blue ➤ ${NC} ${green}$exp ${NC}( $(( (d1 - d2) / 86400 )) ${NC}Days ) $NC"
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
