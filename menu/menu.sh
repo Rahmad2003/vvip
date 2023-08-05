@@ -380,10 +380,10 @@ else
     ssh=$(cat /etc/ssh/.ssh.db | grep "#ssh1#" | wc -l)
 fi
 clear
-echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
+echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e " ${z}│$NC\033[41m                  • INFO SYSTEM VPS •                     $NC${z}│$NC"
-echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
+echo -e " ${z}╚══════════════════════════════════════════════════════════╝${NC}"
+echo -e " ${z}╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} ISP & CITY    $blue=$NC $ISP & $CITY ${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} SERVER RAM    $blue=$NC $RAM MB / $USAGERAM MB ${NC}"
@@ -392,7 +392,7 @@ echo -e " ${z}│ $NC$r ➤  $NC${z} DATE          $blue=$NC $DATEVPS${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} TIME          $blue=$NC $TIMEZONE${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} IP-VPS        $blue=$NC $MYIP${NC}"
 echo -e " ${z}│ $NC$r ➤  $NC${z} DOMAIN        $blue=$NC $domain${NC}"
-echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
+echo -e " ${z}╚══════════════════════════════════════════════════════════╝${NC}"
 echo -e "       ───────────────────────────────────────────────${NC}" | lolcat
 echo -e "           SSH/OPENVPN${NC}    $y=$NC $ssh1${NC}" "$a"
 echo -e "           VMESS/WS/GRPC${NC}  $y=$NC $vma$NC" "$a"
