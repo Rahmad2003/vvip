@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PROMO AKUN VPN PREMIUM</title>
+    <style>
+        body {
+            color: blue;  /* mengatur warna teks menjadi biru */
+        }
+
+        h2 {
+            color: red;  /* mengatur warna teks judul menjadi merah */
+        }
+
+        h3 {
+            color: green; /* mengatur warna teks subjudul menjadi hijau */
+        }
+
+        p {
+            color: orange; /* mengatur warna teks paragraf menjadi orange */
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">⚠️ PROMO AKUN VPN PREMIUM</h2>
+    <p style="text-align: center;"><strong>🔔 REDY SSH VMESS VLESS</strong></p>
+    <p style="text-align: center;"><strong>🌐 SERVER SG US GR</strong></p>
+    <p style="text-align: center;"><strong>🌐 ISP DIGITAL OCEAN</strong></p>
+
+    <hr>
+
+    <h3 style="text-align: center;">🇸🇬 SG DO : 3000 ( 7 HARI )</h3>
+    <h3 style="text-align: center;">🇸🇬 SG DO : 5000 ( 15 HARI )</h3>
+    <h3 style="text-align: center;">🇸🇬 SG DO : 10000 ( 30 HARI )</h3>
+
+    <hr>
+
+    <h3 style="text-align: center;">🇺🇸 US DO : 2000 ( 7 HARI )</h3>
+    <h3 style="text-align: center;">🇺🇸 US DO : 4000 ( 15 HARI )</h3>
+    <h3 style="text-align: center;">🇺🇸 US DO : 8000 ( 30 HARI )</h3>
+
+    <hr>
+
+    <h3 style="text-align: center;">🇩🇪 GR DO : 2000 ( 7 HARI )</h3>
+    <h3 style="text-align: center;">🇩🇪 GR DO : 4000 ( 15 HARI )</h3>
+    <h3 style="text-align: center;">🇩🇪 GR DO : 8000 ( 30 HARI )</h3>
+
+    <hr>
+
+    <p style="text-align: center;"><strong>🔊 BERMINAT BISA HUBUNGI ADMIN</strong></p>
+    <p style="text-align: center;"><a href="https://t.me/Lawonteam"><button class="btn">Hubungi Admin</button></a></p>
+
+    <hr>
+
+    <p style="text-align: center;"><strong>✔️ GARANSI 1 BULAN FULL !!!</strong></p>
+    <p style="text-align: center;"><strong>✔️ 1AKUN 1LOGIN DEVICE</strong></p>
+    <p style="text-align: center;"><strong>✔️ TIDAK ADA GARANSI UNTUK AKUN YANG MELANGGAR ATURAN, DENGAN TERPAKSA AKUN AKAN ADMIN "BANNED" !!!</strong></p>
+
+    <hr>
+
+    <p style="text-align: center;"><strong>✖️ NO SPAM</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO DDOSDDOS</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO HACKING</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO CARDING</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO TORRENT</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO OVER DOWNLOAD</strong></p>
+    <p style="text-align: center;"><strong>✖️ NO MINNING</strong></p>
+</body>
+</html>
